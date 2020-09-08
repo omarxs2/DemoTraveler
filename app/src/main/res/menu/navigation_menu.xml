@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_near_me"
+        android:title="Near me"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        />
+
+    <item
+        android:id="@+id/nav_find_friends"
+        android:title="Find Friends"
+        android:icon="@drawable/find_people"
+
+        />
+
+    <item
+        android:id="@+id/nav_reqAndoff"
+        android:title="Requests &amp; Offers"
+        android:icon="@drawable/messages"
+
+        />
+
+    <item
+        android:id="@+id/nav_rooms"
+        android:title="Rooms"
+        android:icon="@drawable/plan2"
+
+        />
+
+
+
+
+
+
+    <item
+        android:id="@+id/nav_cities"
+        android:icon="@drawable/about_city"
+        android:title="Cities"
+        />
+
+    <item
+        android:id="@+id/nav_Translate"
+        android:title="Translate"
+        android:icon="@drawable/translate"
+
+        />
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Setting"
+        android:icon="@drawable/settings"
+
+        />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+
+        />
+</menu>

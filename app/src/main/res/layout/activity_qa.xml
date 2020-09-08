@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QAActivity"
+    android:background="@color/colorAccent2"
+>
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></include>
+
+
+
+<RelativeLayout
+    android:layout_below="@id/b2"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select some keys to reach more people: "
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+
+
+        ></TextView>
+
+    <LinearLayout
+
+        android:layout_margin="10dp"
+        android:layout_below="@+id/tt"
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginRight="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Spinner
+                android:background="@drawable/inputs"
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Spinner
+                android:background="@drawable/inputs"
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:textAlignment="center"
+        android:hint="Your Question.."
+        android:background="@drawable/inputs"
+        android:layout_below="@+id/a1"
+        android:id="@+id/myquestion"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        ></EditText>
+
+    <Button
+        android:layout_marginRight="50dp"
+        android:id="@+id/ask"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/myquestion"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="ASK"
+        android:layout_marginBottom="20dp"
+        ></Button>
+
+
+    <ImageView
+        android:layout_below="@+id/ask"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/q"
+        ></ImageView>
+
+</RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

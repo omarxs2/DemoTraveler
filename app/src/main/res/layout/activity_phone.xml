@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneActivity"
+    android:background="@color/colorB">
+
+
+    <include
+        android:id="@+id/phone_toolbar"
+        layout="@layout/app_bar_layout"
+        >
+    </include>
+
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_massage"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please write your phone number:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+
+
+    <TextView
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text_massage2"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please verify your phone number:"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+
+
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:background="@drawable/inputs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/text_massage"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Phone Number"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/verification_massage"
+        android:background="@drawable/inputs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/text_massage"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="Verification Code"
+        android:textAlignment="center"/>
+
+
+    <Button
+    android:id="@+id/send_massage"
+    android:background="@drawable/buttons"
+    android:layout_centerHorizontal="true"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_below="@+id/phone_number"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:text="Send massage"
+    android:textAlignment="center"
+    android:textColor="@color/colorAccent"
+    android:textSize="20dp"/>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/verify_acc"
+        android:background="@drawable/buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/phone_number"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Verify"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/send_massage"
+        android:src="@drawable/image_4"/>
+
+</RelativeLayout>

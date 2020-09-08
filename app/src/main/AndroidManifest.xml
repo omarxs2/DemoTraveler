@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.demotraveler">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".IstanbulSch2Activity"
+            android:parentActivityName=".IstanbulSchActivity"></activity>
+
+
+        <activity
+            android:name=".IstanbulSchActivity"
+            android:parentActivityName=".IstanbulActivity" />
+        <activity
+            android:name=".IstanbulHotelsActivity"
+            android:parentActivityName=".IstanbulActivity" />
+        <activity
+            android:name=".PrayerActivity"
+            android:parentActivityName=".IstanbulActivity" />
+        <activity
+            android:name=".IstanbulWeatherActivity"
+            android:parentActivityName=".IstanbulActivity" />
+        <activity
+            android:name=".IstanbulLocationsActivity"
+            android:parentActivityName=".IstanbulActivity" />
+        <activity
+            android:name=".InfoIstanbulActivity"
+            android:parentActivityName=".IstanbulActivity" />
+        <activity
+            android:name=".IstanbulActivity"
+            android:parentActivityName=".AboutCitiesActivity" />
+        <activity
+            android:name=".AboutCitiesActivity"
+            android:parentActivityName=".MainServicesActivity" />
+        <activity
+            android:name=".DailyProgramActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ShowRoomPeopleActivity" />
+        <activity
+            android:name=".JoindRoomsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CreateRoomActivity"
+            android:parentActivityName=".RoomActivity" />
+        <activity android:name=".AllGoingActivity" />
+        <activity
+            android:name=".RoomActivity"
+            android:parentActivityName=".MainServicesActivity" />
+        <activity
+            android:name=".GoingActivity"
+            android:parentActivityName=".PostsActivity" />
+        <activity android:name=".ShowSchedActivity" />
+        <activity android:name=".AnswerActivity" />
+        <activity
+            android:name=".QAActivity"
+            android:parentActivityName=".PostsActivity" />
+        <activity
+            android:name=".SchPostsActivity"
+            android:parentActivityName=".PostsActivity" />
+        <activity
+            android:name=".PaymentActivity"
+            android:parentActivityName=".AllReqAndOffersActivity" />
+        <activity
+            android:name=".AllReqAndOffersActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".BookLocalActivity" />
+        <activity
+            android:name=".LocalGuidActivity"
+            android:parentActivityName=".MainServicesActivity" />
+        <activity
+            android:name=".AllMasagesActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NearMeActivity"
+            android:label="@string/title_activity_near_me" />
+        <activity
+            android:name=".MainServicesActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PhoneActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".AllMasagesActivity" />
+        <activity android:name=".FollowingActivity" />
+        <activity android:name=".FollowersActivity" />
+        <activity android:name=".PersonProfileActivity" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".CommentActivity" />
+        <activity android:name=".CurrentUserPostsActivity" />
+        <activity android:name=".InterestsActivity" />
+        <activity
+            android:name=".FindFriendsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ClickPostActivity" />
+        <activity android:name=".NormalPostsActivity" />
+        <activity android:name=".PostsActivity" />
+        <activity android:name=".SetupActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

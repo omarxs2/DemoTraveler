@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:background="@drawable/inputs"
+    >
+
+
+
+        <TextView
+            android:layout_marginHorizontal="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/FontTagSS"
+            android:background="@drawable/tagstand"
+            android:paddingHorizontal="5dp"
+            android:id="@+id/daily_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity 1\nShopping"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            ></TextView>
+
+
+
+    <LinearLayout
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/day_place"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ortakoy Camii"
+            android:textSize="25dp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/black"
+            ></TextView>
+
+        <TextView
+            android:textAlignment="textStart"
+            android:layout_gravity="center"
+            android:id="@+id/day_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="orakoy camii is one of the oldest mosqs in istanbul, it is located on the posphore."
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            tools:ignore="RtlCompat"></TextView>
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/day_loc"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: Besiktas mah. No:25 Istanbul/Turkey"
+            android:textSize="13dp"
+            android:textStyle="italic"
+            android:textColor="@color/FontTagSS"
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

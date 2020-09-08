@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FindFriendsActivity"
+    android:background="@color/colorB">
+
+        <include layout="@layout/app_bar_layout"
+            android:id="@+id/find_friends_bar_layout"
+            ></include>
+
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/find_friends_bar_layout"
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorAccent"
+            android:text="Search for a new travelers and discover new places!!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/simple_text"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold|italic"/>
+
+        <EditText
+            android:id="@+id/search_input"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:hint="Search"
+            android:background="@drawable/inputs"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/simple_text"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+
+        <ImageButton
+            android:id="@+id/find_friends_search_btn"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/simple_text"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_search_black_24dp"/>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result_list"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

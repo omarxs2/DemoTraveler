@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowRoomPeopleActivity"
+    android:background="@color/colorB">
+
+
+
+    <TextView
+        android:id="@+id/tit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meeting Info:"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        ></TextView>
+
+    <EditText
+        android:textAlignment="center"
+        android:hint="Meeting Info"
+        android:id="@+id/room_info"
+        android:layout_below="@+id/tit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputs"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+    ></EditText>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/info_sub_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/room_info"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:text="submit"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+        ></Button>
+
+
+    <TextView
+        android:layout_below="@+id/info_sub_btn"
+        android:id="@+id/tit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peoples want to join:"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_room_req_recycle"
+        android:layout_below="@+id/tit1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+</RelativeLayout>

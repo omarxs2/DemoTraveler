@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/inputs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:id="@+id/sch_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/black"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/sch_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="User Name"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:id="@+id/sch_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:id="@+id/sch_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time"
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:padding="10dp"
+            android:background="@drawable/bck"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textAlignment="center"
+                android:paddingHorizontal="4dp"
+                android:background="@drawable/tags"
+                android:layout_gravity="center"
+                android:id="@+id/sch_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Best Trip Ever"
+                android:textColor="@color/FontTagP"
+                android:textSize="25dp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+
+                android:layout_gravity="center"
+                android:id="@+id/sch_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ISTANBUL / TURKEY"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                />
+
+
+            <TextView
+                android:id="@+id/sch_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300$ total cost"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/sch_tags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food / Crispy / Syrians"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/sch_seemore_btn"
+            android:layout_gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/buttons"
+            android:text="See more"
+            android:textColor="@color/white"
+            android:textSize="18dp"></Button>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

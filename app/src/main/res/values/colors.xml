@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#138808</color>
+    <color name="colorPrimaryDark">#03C03C</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorB">#3B3C3B</color>
+    <color name="colorC">#795F13</color>
+    <color name="colorD">#997405</color>
+    <color name="colorED">#E73B2D</color>
+    <color name="mas1">#9FEC7C</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent2">#999898</color>
+    <color name="zeft">#693F1A</color>
+    <color name="colorAccent3">#D1CDCD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="xxx">#3F51B5</color>
+    <color name="yyy">#FFC107</color>
+
+    <color name="BackTagP">#C6EFCE</color>
+    <color name="FontTagP">#006100</color>
+
+    <color name="FontTagN">#9C0006</color>
+    <color name="BackTagN">#FFC7CE</color>
+
+    <color name="BackTagSS">#FFEB9C</color>
+    <color name="FontTagSS">#9C6500</color>
+
+
+    <color name="blue">#3F51B5</color>
+
+</resources>

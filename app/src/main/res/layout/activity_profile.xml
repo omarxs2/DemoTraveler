@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:fillViewport="true"
+
+    >
+
+    <include
+        android:layout_alignParentBottom="true"
+        layout="@layout/bottom_bar"
+        android:id="@+id/profile_page_bottombar"
+        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        >
+    </include>
+
+
+    <ScrollView
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:background="@color/colorB"
+        android:id="@+id/xcxc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <ImageButton
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profile_edit_btn"
+            android:background="@color/colorB"
+            android:src="@drawable/ic_settings_black_24dp"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_ac_profileimage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/profile" />
+
+
+        <TextView
+            android:id="@+id/profile_ac_fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_ac_profileimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Profile Name"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="35dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/profile_ac_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_ac_fullname"
+            android:layout_centerHorizontal="true"
+            android:text="Username"
+            android:textColor="@color/colorAccent"
+            android:textSize="17dp"
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/profile_ac_bio"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/profile_ac_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:text="Hello, I'm using traveler .. add me and discover new places."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input2"
+            android:id="@+id/L1"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_below="@+id/profile_ac_bio"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/posts_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/posts_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posts"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp"
+                    android:textStyle="italic"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/followers_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="105"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/followers_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Follower"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp"
+                    android:textStyle="italic"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/following_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30dp"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/following_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Following"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp"
+                    android:textStyle="italic"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_marginBottom="15dp"
+            android:id="@+id/profile_ac_follow_btn"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:textSize="17dp"
+            android:text="Follow"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttons"
+            android:layout_below="@+id/L1"
+            android:layout_width="170dp"
+            android:layout_height="40dp" />
+
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/profile_ac_follow_btn"
+            >
+
+            <TabHost
+                android:id="@android:id/tabhost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TabWidget>
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <include layout="@layout/user_info"></include>
+
+                        <include layout="@layout/business_info"></include>
+
+
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+            </TabHost>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
+

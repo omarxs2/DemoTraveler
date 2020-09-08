@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstanbulSchActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ist_daily_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <!-- Schedule 1 -->
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 Days Schedule"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@drawable/tags"
+                    android:textColor="@color/FontTagP"
+                    >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Istanbul Asia Side"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="25dp"></TextView>
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/sch1"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="More Details"
+                        android:background="@drawable/button3"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle=""></Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Schedule 2 -->
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 Days Schedule"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@drawable/tags"
+                    android:textColor="@color/FontTagP"
+                    >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Istanbul Fast Tour"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="25dp"></TextView>
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/sch2"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="More Details"
+                        android:background="@drawable/buttons"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle=""></Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <!-- Schedule 3 -->
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="7 Days Schedule"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@drawable/tags"
+                    android:textColor="@color/FontTagP"
+                    >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Istanbul and
+                        Sabanca"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="25dp"></TextView>
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/sch3"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="More Details"
+                        android:background="@drawable/button3"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle=""></Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Schedule 4 -->
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="9 Days Schedule"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@drawable/tags"
+                    android:textColor="@color/FontTagP"
+                    >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Istanbul all places"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="25dp"></TextView>
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/sch4"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="More Details"
+                        android:background="@drawable/button3"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle=""></Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <!-- Schedule 5 -->
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="For Couples"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@drawable/tags"
+                    android:textColor="@color/FontTagP"
+                    >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The love of Istanbul"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="25dp"></TextView>
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/sch5"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="More Details"
+                        android:background="@drawable/button3"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle=""></Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- Schedule 6 -->
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="With Children"
+                    android:textSize="30dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:background="@drawable/tags"
+                    android:textColor="@color/FontTagP"
+                    >
+                </TextView>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Family and Children"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="25dp"></TextView>
+
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/sch6"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="130dp"
+                        android:layout_height="30dp"
+                        android:text="More Details"
+                        android:background="@drawable/button3"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle=""></Button>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookLocalActivity"
+    android:background="@color/colorB">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/book_local_bar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"></include>
+
+
+
+
+
+    <TextView
+    android:id="@+id/baslan"
+    android:textStyle="italic"
+    android:textColor="@color/colorAccent"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="5dp"
+    android:textAlignment="center"
+    android:textSize="25dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/book_local_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Please fill the information to send the offer"
+    ></TextView>
+
+    <TextView
+        android:id="@+id/EE"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/baslan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How many people are you?"
+        ></TextView>
+
+    <Spinner
+        android:textAlignment="center"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/EE"
+        android:id="@+id/spinner_people_no"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/EE2"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner_people_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starting Date:"
+        ></TextView>
+
+   <TextView
+       android:paddingTop="8dp"
+       android:textSize="18dp"
+       android:hint="Select a date"
+       android:textAlignment="center"
+       android:background="@drawable/inputs"
+       android:layout_marginTop="5dp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginRight="50dp"
+       android:layout_below="@+id/EE2"
+       android:id="@+id/date_start"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       ></TextView>
+
+
+    <TextView
+        android:id="@+id/EE3"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/date_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ending Date:"
+        ></TextView>
+
+    <TextView
+        android:paddingTop="8dp"
+        android:textSize="18dp"
+        android:hint="Select a date"
+        android:textAlignment="center"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/EE3"
+        android:id="@+id/date_end"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/EE4"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/date_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes:"
+        ></TextView>
+
+    <EditText
+        android:layout_centerInParent="true"
+        android:textSize="18dp"
+        android:hint="Notes"
+        android:textAlignment="center"
+        android:background="@drawable/inputs"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/EE4"
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        ></EditText>
+
+
+
+    <Button
+        android:id="@+id/send_request_btn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"
+        android:text="send request"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/notes"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+
+        ></Button>
+
+
+
+</RelativeLayout>

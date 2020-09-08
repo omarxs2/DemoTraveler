@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile"
+        android:id="@+id/massage_profile_image"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/colorAccent2"
+
+        />
+
+    <TextView
+        android:id="@+id/receiver_massage_text"
+        android:layout_toEndOf="@+id/massage_profile_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/massage_profile_image"
+        android:background="@drawable/reciever_massage_backg"
+        android:text="Reciver Massage Here!"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:textSize="14dp"
+        />
+
+
+    <TextView
+        android:id="@+id/sender_massage_text"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sender_massage_backg"
+        android:text="Sender Massage"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:textSize="14dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="@id/receiver_massage_text"
+
+
+        ></TextView>
+
+
+</RelativeLayout>

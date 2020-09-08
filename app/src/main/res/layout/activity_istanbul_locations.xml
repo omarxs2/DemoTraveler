@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IstanbulLocationsActivity">
+
+    <include
+        android:id="@+id/ist_loc_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <HorizontalScrollView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shopping"
+                android:textSize="23dp"
+                android:padding="3dp"
+                android:textColor="@color/FontTagP"
+                android:background="@drawable/tags"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurants"
+                android:textSize="23dp"
+                android:padding="3dp"
+                android:textColor="@color/FontTagP"
+                android:background="@drawable/tags"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cafes"
+                android:textSize="23dp"
+                android:padding="3dp"
+                android:textColor="@color/FontTagP"
+                android:background="@drawable/tags"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parks"
+                android:textSize="23dp"
+                android:padding="3dp"
+                android:textColor="@color/FontTagP"
+                android:background="@drawable/tags"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nature"
+                android:textSize="23dp"
+                android:padding="3dp"
+                android:textColor="@color/FontTagP"
+                android:background="@drawable/tags"
+                ></TextView>
+
+
+            <TextView
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Historical"
+                android:textSize="23dp"
+                android:padding="3dp"
+                android:textColor="@color/FontTagP"
+                android:background="@drawable/tags"
+                ></TextView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+<ScrollView
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!--  1  -->
+
+
+        <LinearLayout
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/ayasofya"
+        ></ImageView>
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayasofya Mousqe"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historical place"
+            android:textColor="@color/FontTagSS"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            ></TextView>
+
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Turkey"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            ></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+        <!--  2  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/sultanahmet"
+                android:scaleType="fitStart"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sultanahmet Camii"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historical place"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Sultan Ahmet, Atmeydanı Cd. No:7, 34122 Fatih/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <!--  3  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/kizkulesi"
+                android:scaleType="fitStart"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kiz Kulesi"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historical place"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Salacak, Üsküdar Salacak Mevkii, 34668 Üsküdar/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <!--  4  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/dolma"
+                android:scaleType="fitCenter"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dolmabahce Palace"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historical place"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Vişnezade, Dolmabahçe Cd., 34357 Beşiktaş/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <!--  5  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/ortakoy"
+                android:scaleType="fitCenter"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ortakoy Camii"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historical place"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Mecidiye, Mecidiye Köprüsü Sk. No:1 D:1, 34347 Beşiktaş/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <!--  6  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/marform"
+                android:scaleType="fitCenter"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marmara Forum"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shopping place"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Osmaniye, Çobançeşme Koşuyolu Cd. No:3, 34100 Bakırköy/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <!--  7  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/cevahit"
+                android:scaleType="fitCenter"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cevahir Mall"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shopping place"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 19 Mayıs, Büyükdere Cd. No:22, 34360 Şişli/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--  8  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/mimarsinan"
+                android:scaleType="fitCenter"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mimar Sinan Cafe"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cafe"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: 19 Mayıs, Büyükdere Cd. No:22, 34360 Şişli/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <!--  9  -->
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/ulus"
+                android:scaleType="fitCenter"
+                ></ImageView>
+
+            <LinearLayout
+                android:layout_marginHorizontal="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ulus Cafe"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cafe"
+                    android:textColor="@color/FontTagSS"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+                <TextView
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address: Kuruçeşme, Adnan Saygun Cad. Ulus parkı 71/B, 34345 Beşiktaş/İstanbul, Turkey"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

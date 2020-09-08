@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity"
+    android:background="@drawable/register"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/setup_profile_image"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/profile"
+                android:layout_marginTop="10dp"
+                app:civ_border_color="@color/colorPrimaryDark"
+                app:civ_border_width="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/T"
+                android:layout_marginTop="250dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bio:"
+                />
+
+
+            <EditText
+                android:id="@+id/setup_status"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/setup_profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+
+                android:background="@drawable/inputs"
+                android:hint="Profile Status"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:id="@+id/T1"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name:"
+                />
+
+
+            <EditText
+                android:id="@+id/setup_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/T1"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="Full Name"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+                />
+
+
+            <TextView
+                android:id="@+id/T2"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+
+                />
+
+            <EditText
+                android:id="@+id/setup_username"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/T2"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="Username"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+                />
+
+            <TextView
+                android:id="@+id/T3"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country:"
+                />
+
+            <EditText
+                android:id="@+id/setup_country"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/T3"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="Country"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+                />
+
+            <TextView
+                android:id="@+id/T4"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date od birth:"
+                />
+
+            <EditText
+                android:id="@+id/setup_dob"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/T4"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="Date of Birth"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+                />
+
+            <TextView
+                android:id="@+id/T5"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                />
+
+            <EditText
+                android:id="@+id/setup_gender"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/T5"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="Gender"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+                />
+
+            <TextView
+                android:id="@+id/T6"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Relationship:"
+                />
+
+            <EditText
+                android:id="@+id/setup_relationship"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/T6"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="Relationship status"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+                />
+
+            <TextView
+                android:id="@+id/T7"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_relationship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nickname:"
+                />
+
+            <EditText
+                android:id="@+id/setup_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@+id/T7"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="Nickname"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+
+                />
+
+
+            <TextView
+                android:id="@+id/T8"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:layout_below="@+id/setup_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image Title:"
+                />
+
+            <Button
+                android:id="@+id/setup_back_btn"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/T8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+
+
+            <Button
+                android:layout_marginLeft="312dp"
+                android:id="@+id/setup_forward_btn"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/T8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+
+
+            <ImageSwitcher
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/setup_image_switcher"
+                android:layout_below="@+id/T8"
+                android:layout_width="200dp"
+                android:layout_height="200dp"></ImageSwitcher>
+
+
+
+
+            <Button
+                android:id="@+id/setup_save_button"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/setup_image_switcher"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="save"
+                android:textSize="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/buttons"/>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

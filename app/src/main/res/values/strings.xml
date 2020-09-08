@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">DemoTraveler</string>
+    <string name="drawer_open"></string>
+    <string name="drawer_close"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="OPEN_WEATHER_MAP_API_KEY">bc9aa1d0b2df3865e128a1b94f695e82</string>
+
+
+    <string-array name="PeopleNoList">
+        <item>Select</item>
+        <item>only me</item>
+        <item>two people</item>
+        <item>three people</item>
+        <item>more than three</item>
+    </string-array>
+
+
+    <string-array name="posttype">
+        <item>Choose Category</item>
+        <item>skydiving</item>
+        <item>mountaineering</item>
+        <item>rafting</item>
+        <item>diving</item>
+        <item>greenlands</item>
+        <item>oceans</item>
+        <item>mountains</item>
+        <item>jungles</item>
+        <item>istanbul</item>
+        <item>trabzon</item>
+        <item>antalya</item>
+        <item>antep</item>
+        <item>architecture</item>
+        <item>parties</item>
+        <item>animals</item>
+        <item>food</item>
+        <item>history</item>
+        <item>culture</item>
+        <item>festivals</item>
+        <item>art</item>
+
+    </string-array>
+
+
+    <string-array name="CitiesList">
+        <item>City</item>
+        <item>Hong Kong, China</item>
+        <item>Bangkok, Thailand</item>
+        <item>London, United Kingdom</item>
+        <item>Paris, France</item>
+        <item>New York City, USA</item>
+        <item>Shenzhen, China</item>
+        <item>Kuala Lumpur, Malaysia</item>
+        <item>Antalya, Turkey</item>
+        <item>Istanbul, Turkey</item>
+        <item>Dubai, UAE</item>
+        <item>Seoul, South Korea</item>
+        <item>Rome, Italy</item>
+        <item>Phuket, Thailand</item>
+        <item>Guangzhou, China</item>
+        <item>Mecca, Saudi Arabia</item>
+        <item>Pattaya, Thailand</item>
+        <item>Taipei, Taiwan</item>
+        <item>Miami, USA</item>
+        <item>Prague, Czech Republic</item>
+        <item>Shanghai, China</item>
+        <item>Las Vegas, USA</item>
+        <item>Milan, Italy</item>
+        <item>Barcelona, Spain</item>
+        <item>Moscow, Russia</item>
+        <item>Amsterdam, Netherlands</item>
+        <item>Vienna, Austria</item>
+        <item>history</item>
+        <item>Venice, Italy</item>
+        <item>Los Angeles, USA</item>
+        <item>Lima, Peru</item>
+        <item>Tokyo, Japan</item>
+        <item>Johannesburg, South Africa</item>
+        <item>Beijing, China</item>
+        <item>Sofia, Bulgaria</item>
+        <item>Orlando, USA</item>
+        <item>Berlin, Germany</item>
+        <item>Budapest, Hungary</item>
+        <item>Ho Chi Minh City, Vietnam</item>
+        <item>Florence, Italy</item>
+        <item>Madrid, Spain</item>
+        <item>Warsaw, Poland</item>
+        <item>Doha, Qatar</item>
+        <item>Nairobi, Kenya</item>
+        <item>Delhi, India</item>
+        <item>Delhi, India</item>
+        <item>Muğla, Turkey</item>
+        <item>Sydney, Australia</item>
+        <item>Munich, Germany</item>
+        <item>Cancún, Mexico</item>
+        <item>Toronto, Canada</item>
+        <item>Lisbon, Portugal</item>
+        <item>Cairo, Egypt</item>
+        <item>Djerba, Tunisia</item>
+        <item>Honolulu, USA</item>
+        <item>Zürich, Switzerland</item>
+        <item>Nice, France</item>
+    </string-array>
+
+
+    <string-array name="About">
+        <item>About</item>
+        <item>Costs</item>
+        <item>Activities</item>
+        <item>General Info</item>
+        <item>Security Advice</item>
+
+    </string-array>
+
+    <string-array name="Days">
+        <item>Day</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+
+
+    </string-array>
+
+
+    <string-array name="Looking">
+        <item>Looking for</item>
+        <item>1 person / male</item>
+        <item>1 person / female</item>
+        <item>2 people</item>
+        <item>Couples</item>
+        <item>Group</item>
+        <item>No specification</item>
+
+
+    </string-array>
+    <string name="facebook_app_id">2254672644824414</string>
+    <string name="fb_login_protocol_scheme">fb2254672644824414</string>
+    <string name="title_activity_near_me">Map</string>
+    <string name="title_activity_mapsff">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterestsActivity"
+    android:background="@color/colorAccent"
+    >
+
+    <include
+        android:id="@+id/interests_toolbar"
+        layout="@layout/app_bar_layout"
+        ></include>
+
+
+
+
+    <TextView
+        android:textColor="@color/colorB"
+        android:id="@+id/t1"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/interests_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are you interested in?"
+        />
+
+    <TextView
+        android:textColor="@color/colorB"
+        android:id="@+id/t2"
+        android:textStyle="italic"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select some topics you are interested in and help us to know more about you.."
+        />
+
+
+    <ImageView
+        android:id="@+id/l1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/t2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line2"
+        />
+
+
+        <TextView
+            android:id="@+id/t3"
+            android:textColor="@color/colorB"
+            android:textStyle="italic|bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adventure:"
+
+            />
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_skydiving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skydiving"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_mountaineering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mountaineering"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_rafting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rafting"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_diving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diving"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:textColor="@color/colorB"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nature:"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_greenlands"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greenlands"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_oceans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oceans"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_mountains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mountains"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_jungles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jungles"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/t5"
+        android:textColor="@color/colorB"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cities:"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_istanbul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Istanbul"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_trabzon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trabzon"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_antalya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Antalya"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_antep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaziantep"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t6"
+        android:textColor="@color/colorB"
+        android:textStyle="italic|bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other:"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_architecture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Architecture"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_parties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Party"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_animals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animals"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/l7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/l6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="History"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_culture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Culture"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_festivals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Festivals"/>
+
+        <CheckBox
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/check_art"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Art"/>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/interests_save_btn"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/buttons"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/l7"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="save"/>
+
+</RelativeLayout>

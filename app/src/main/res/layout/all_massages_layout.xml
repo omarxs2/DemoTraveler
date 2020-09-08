@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="@drawable/massages_layout">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/massage_image"
+        android:layout_margin="5dp"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp"
+        />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6.5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+            <TextView
+
+                android:textColor="@color/black"
+                android:id="@+id/massage_fullname"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Full Name"
+                android:textSize="20dp"
+                android:textStyle="normal"/>
+
+
+
+
+
+        <TextView
+            android:textColor="@color/colorB"
+            android:id="@+id/massage_last_mass"
+            android:layout_width="280dp"
+            android:layout_height="25dp"
+            android:text="Hi bro, where are you?"
+            android:textSize="17dp"
+            android:textStyle="italic"/>
+
+        <TextView
+
+            android:textColor="@color/colorB"
+            android:id="@+id/massage_time"
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:text="19-34 PM"
+            android:textSize="12dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/unread_massage"
+        android:visibility="invisible"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="27.5dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/dot"></ImageView>
+
+</LinearLayout>

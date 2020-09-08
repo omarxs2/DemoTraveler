@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstanbulWeatherActivity"
+    android:orientation="vertical"
+    android:background="@drawable/istweather"
+    >
+    <include
+        android:id="@+id/ist_weth_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/weathdsf"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WEATHER IN ISTANBUL"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"></TextView>
+
+    <!-- day 1 -->
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/weather_temp1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25°"
+                android:textSize="90dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/weather_desc1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scattered clouds"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Istanbul/Turkey"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="17dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weather_cloud1"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clouds 100%"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:textStyle="italic"></TextView>
+
+            <TextView
+                android:id="@+id/weather_daymonth1"
+                android:layout_marginRight="18dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:id="@+id/weather_dayweek1"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUS"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <!-- day 2 -->
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/weather_temp2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19°"
+                android:textSize="90dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/weather_desc2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="az clouds"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Istanbul/Turkey"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="17dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weather_cloud2"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clouds 53%"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:textStyle="italic"></TextView>
+
+            <TextView
+                android:id="@+id/weather_daymonth2"
+                android:layout_marginRight="18dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:id="@+id/weather_dayweek2"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WED"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <!-- day 3 -->
+
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/weather_temp3"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10°"
+                android:textSize="90dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/weather_desc3"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="snowy"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Istanbul/Turkey"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:textSize="17dp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/weather_cloud3"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clouds 99%"
+                android:textColor="@color/white"
+                android:padding="5dp"
+                android:textStyle="italic"></TextView>
+
+            <TextView
+                android:id="@+id/weather_daymonth3"
+                android:layout_marginRight="18dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:id="@+id/weather_dayweek3"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THU"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        <!-- day 4 -->
+
+        <LinearLayout
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/weather_temp4"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13°"
+                    android:textSize="90dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/weather_desc4"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="snowy"
+                    android:textColor="@color/white"
+                    android:textStyle="italic"
+                    android:textSize="20dp"></TextView>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Istanbul/Turkey"
+                    android:textColor="@color/white"
+                    android:textStyle="italic"
+                    android:textSize="17dp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/weather_cloud4"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clouds 99%"
+                    android:textColor="@color/white"
+                    android:padding="5dp"
+                    android:textStyle="italic"></TextView>
+
+                <TextView
+                    android:id="@+id/weather_daymonth4"
+                    android:layout_marginRight="18dp"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="04"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"></TextView>
+                <TextView
+                    android:id="@+id/weather_dayweek4"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FRI"
+                    android:textSize="27dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

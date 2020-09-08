@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IstanbulActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ist_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2.5dp"
+    android:layout_weight="1"
+    >
+
+        <TextView
+            android:id="@+id/info_ist"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="General Info"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bck"></TextView>
+
+        <TextView
+            android:id="@+id/tourist_loc_ist"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tourist Locations"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bck"></TextView>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2.5dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/ist_daily"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Daily Schedules"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bck"></TextView>
+
+        <TextView
+            android:id="@+id/hotels_ist"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Hotels"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bck"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2.5dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/weather_ist"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The Weather"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bck"></TextView>
+
+        <TextView
+            android:id="@+id/prayer_ist"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Prayer Time"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:background="@drawable/bck"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutCitiesActivity">
+
+
+    <include
+        android:id="@+id/cities_page_toolbar"
+        layout="@layout/app_bar_layout" />
+    
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+            android:id="@+id/ist_city"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="ISTANBUL"
+            android:textSize="40dp"
+            android:background="@drawable/input2"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            ></TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="ANKARA"
+                android:textSize="40dp"
+                android:background="@drawable/input2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="BURSA"
+                android:textSize="40dp"
+                android:background="@drawable/input2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="ANTALYA"
+                android:textSize="40dp"
+                android:background="@drawable/input2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="TRABZON"
+                android:textSize="40dp"
+                android:background="@drawable/input2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="AMMAN"
+                android:textSize="40dp"
+                android:background="@drawable/input2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="NAZARETH"
+                android:textSize="40dp"
+                android:background="@drawable/input2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                ></TextView>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:text="CAIRO"
+                android:textSize="40dp"
+                android:background="@drawable/input2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center"
+                ></TextView>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    
+    
+
+</LinearLayout>

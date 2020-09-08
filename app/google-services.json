@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "529933845641",
+    "firebase_url": "https://demotraveler-a506c.firebaseio.com",
+    "project_id": "demotraveler-a506c",
+    "storage_bucket": "demotraveler-a506c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529933845641:android:f80d32003e3563fe957258",
+        "android_client_info": {
+          "package_name": "com.app.demotraveler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529933845641-veukl7h1s6jab5vckkft2sd8970ngsn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIFrF4HX1ikEft5HfdMkzOVPnxhUTK4YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529933845641-veukl7h1s6jab5vckkft2sd8970ngsn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

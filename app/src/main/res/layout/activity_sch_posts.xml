@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchPostsActivity" android:background="@color/colorB">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></include>
+
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/f2"
+            android:layout_below="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title:"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_marginBottom="10dp"
+            ></TextView>
+
+    <EditText
+        android:id="@+id/sch_title"
+        android:background="@drawable/inputs"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/f2"
+        android:layout_marginBottom="10dp"
+        android:hint="Trip title"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        ></EditText>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/f3"
+        android:layout_below="@+id/sch_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        ></TextView>
+
+
+    <Spinner
+
+        android:id="@+id/sch_location"
+        android:background="@drawable/inputs"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/f3"
+        android:layout_marginBottom="10dp"
+        android:hint="Trip location"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/f4"
+        android:layout_below="@+id/sch_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost:"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        ></TextView>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/sch_cost"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/f4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/inputs"
+        android:hint="Total cost in USD"
+        android:textAlignment="center"
+        android:gravity="center
+"></EditText>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/f5"
+        android:layout_below="@+id/sch_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags:"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/sch_tags"
+        android:background="@drawable/inputs"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/f5"
+        android:layout_marginBottom="10dp"
+        android:hint="Trip location"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        ></EditText>
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sch_tags"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/save"
+        android:background="@drawable/buttons"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Save"
+        ></Button>
+
+
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/fuuuu"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/user_day_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/fuckyou"
+        android:layout_below="@+id/fuuuu"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:visibility="invisible"
+            android:layout_marginRight="10dp"
+            android:id="@+id/addday"
+            android:background="@drawable/buttons"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="Add"
+            ></Button>
+
+        <Button
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/submittrip"
+            android:background="@drawable/buttons"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="submit"
+            ></Button>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

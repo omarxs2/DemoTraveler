@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NormalPostsActivity"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/posts_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+
+
+        <ImageButton
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:padding="50dp"
+            android:layout_below="@id/posts_page_toolbar"
+            android:id="@+id/normal_posts_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/add_post_high" />
+
+
+            <EditText
+                android:layout_below="@+id/normal_posts_image"
+                android:id="@+id/normal_posts_text"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textAlignment="viewStart"
+                android:hint="What are you thinking about..?"
+                android:inputType="textPersonName"
+                android:gravity="start" />
+
+
+    <LinearLayout
+        android:layout_below="@+id/normal_posts_text"
+        android:id="@+id/lll"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_marginRight="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Spinner
+                android:background="@drawable/inputs"
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginRight="2dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Spinner
+                android:background="@drawable/inputs"
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+                android:background="@drawable/buttons"
+                android:layout_below="@+id/lll"
+                android:id="@+id/normal_posts_publish_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publish"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>

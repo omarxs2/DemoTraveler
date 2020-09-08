@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoIstanbulActivity">
+
+    <include
+        android:id="@+id/ist_info_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/istanbul112"
+        ></ImageView>
+
+
+    <TextView
+        android:paddingHorizontal="5dp"
+        android:background="@drawable/bck"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISTANBUL"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        ></TextView>
+
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Istanbul (Turkish: İstanbul) is a city of fantastic history, culture and beauty. Called Byzantium in ancient times, the city's name was changed to Constantinople in 324 CE when it was rebuilt by the first Christian Roman Emperor, Constantine. The name (Istanbul), which - perhaps surprisingly - comes from Greek and could be translated as a corruption of (to the city). While the term had been in widespread use for centuries, it only became the official name of the city upon the foundation of the Republic of Turkey in the 1920s. \n\n The most populous city in Europe, Istanbul forms the financial center of Turkey and confidently straddles the borders between Asia and Europe as it has for millennia: this is the result when you mix ancient Christendom, a medieval metropolis and the modern Middle East. Situated on either side of the Bosphorus, Istanbul retains its metropolitan status: the city's population is more than 14 million people, making it one of the largest cities in the world.  \n \n
+Lauded in antiquity as (the second Rome), this is a city where you most certainly should roam — culture and excitement lie around every corner and more than 2,000 years of history await you."
+                ></TextView>
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

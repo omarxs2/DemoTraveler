@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomActivity"
+    android:background="@color/white"
+    >
+
+
+
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/room_bar"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"></include>
+
+    <ImageButton
+        android:id="@+id/create_room_btn"
+        android:layout_marginTop="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/addd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"></ImageButton>
+
+
+
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bck"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/room_bar"
+        android:id="@+id/myLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:text="Search for a Group!!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/simple_text"
+            android:textStyle="bold|italic"/>
+
+        <EditText
+            android:id="@+id/search_room"
+            android:textAlignment="center"
+            android:hint="Search Location"
+            android:background="@drawable/inputs"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/simple_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <ImageButton
+            android:id="@+id/find_room_btn"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/simple_text"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_search_black_24dp"/>
+
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/white"
+        android:id="@+id/all_rooms_recycler"
+        android:layout_below="@+id/myLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>

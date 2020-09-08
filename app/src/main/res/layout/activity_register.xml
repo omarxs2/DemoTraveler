@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/login"
+    >
+
+    <ImageView
+        android:id="@+id/register_icon"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/traveleer"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+
+        />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/register_passward"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/password"
+        android:ems="50"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/register_passward2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="Confarm your password"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/register_create_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/buttons"
+        android:text="Create Account"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+</RelativeLayout>

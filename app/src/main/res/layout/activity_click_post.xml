@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClickPostActivity"
+    android:background="@drawable/login">
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/post_image2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_post" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:id="@+id/post_des"
+        android:layout_below="@+id/L1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Post Description"
+        android:textAlignment="textStart"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="start" />
+
+    <Button
+        android:text="Edit Post"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/post_edit_btn"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:text="delete Post"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttons"
+        android:id="@+id/post_delete_btn"
+        android:layout_below="@+id/post_edit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+
+</RelativeLayout>
