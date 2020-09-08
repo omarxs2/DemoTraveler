@@ -98,15 +98,10 @@ All the collected information will be after the acceptance of the user.
 
 # Links 
 
+* [App on Google play](https://play.google.com/store/apps/details?id=com.app.demotraveler)
 
-* App on Google play
+* [Full Document](https://drive.google.com/file/d/1O3FU4e78-M1ecpJhOX8FbgcDQbeDhIef/view?usp=sharing)
 
-https://play.google.com/store/apps/details?id=com.app.demotraveler
+* [Real images from the app](https://drive.google.com/drive/folders/1A16CJDQVQp0inlYjXxgMhF9Sar7D2MNv?usp=sharing)
 
-* Full Document
 
-https://drive.google.com/file/d/1O3FU4e78-M1ecpJhOX8FbgcDQbeDhIef/view?usp=sharing
-
-* Real images from the app
-
-https://drive.google.com/drive/folders/1A16CJDQVQp0inlYjXxgMhF9Sar7D2MNv?usp=sharing
